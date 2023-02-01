@@ -16,6 +16,11 @@ public class Book {
     public Author getAuthor() {
         return this.Author;
     }
+    public void printInfo() {
+        System.out.println("Автор = " + this.Author);
+        System.out.println("Название = " + this.title);
+        System.out.println("год = " + this.year);
+    }
 
     public int getYear() {
         return this.year;
